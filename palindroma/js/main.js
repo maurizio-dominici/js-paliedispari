@@ -17,10 +17,13 @@ console.log(userWord);
 reverseString(userWord);
 console.log(reverseString(userWord));
 
+// Creo una variabile di output
 let outputText = "La parola non è palindroma";
 
+// Se userWord è uguale a reverseString(userWord)
 if (userWord === reverseString(userWord)) {
   outputText = "La parola è palindroma";
 }
 
+// Stampo l'output
 console.log(outputText);
